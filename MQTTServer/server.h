@@ -12,7 +12,6 @@
 
 #include "datastore.h"
 
-#include "error.hh"
 #include "container_helpers.hh"
 
 
@@ -23,8 +22,6 @@ public:
     explicit Server(QObject *parent = nullptr);
 
     bool Startup();
-
-    Terryn::Error error;
 
 signals:
 

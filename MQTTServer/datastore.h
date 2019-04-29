@@ -15,7 +15,6 @@
 #include <QString>
 
 #include "singleton.hh"
-#include "notification.hh"
 #include "container_helpers.hh"
 
 #include "circularlockedqueue.h"
